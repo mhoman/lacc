@@ -38,6 +38,7 @@ struct typetree {
     unsigned int is_vararg : 1;
     unsigned int is_flexible : 1;
     unsigned int is_vla : 1;
+    unsigned int is_static : 1;
 
     /*
      * Total storage size in bytes for struct, union and basic types,
